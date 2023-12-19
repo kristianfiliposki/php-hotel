@@ -47,25 +47,39 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <pre>
         <?php 
            $first = $hotels[0];
             echo $first['name'];
-
+        ?>
+    </pre>
+    <pre>
+        <?php 
             $second = $hotels[1];
             echo $second['name'];
-
+        ?>
+    </pre>
+    <pre>
+        <?php 
             $third = $hotels[2];
             echo $third['name'];
-
+        ?>
+    </pre>
+    <pre>
+        <?php 
             $fourth = $hotels[3];
             echo $fourth['name'];
-
         ?>
-    </div>
+    </pre>
+
+
+
     <form action="prova2.php">
         <input type="text" placeholder="voto" name="voto">
         <button type="submit">send</button>
     </form>
 </body>
 </html>
+<style >
+    
+</style>

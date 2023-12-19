@@ -50,12 +50,27 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
-        if($elemento >= $first['vote'] ){
-            echo $elemento;
-            echo $first;
-        }
-    ?>
+    <pre>
+        <?php 
+            if(
+                ($elemento == $first['vote'] || $elemento < $first['vote'] ) 
+            ){
+                echo $first['vote']; 
+
+            }
+        ?>
+    </pre>
+    <pre>
+        <?php 
+            if(
+                ($elemento == $second['vote'] || $elemento < $second['vote'] ) 
+
+            ){
+                echo $second['vote'];
+
+            }
+        ?>
+    </pre>
     <a href="prova.php">pagina iniziale</a>
 </body>
 </html>
