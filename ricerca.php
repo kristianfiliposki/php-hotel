@@ -71,6 +71,6 @@
             }
         ?>
     </pre>
-    <a href="prova.php">pagina iniziale</a>
+    <a href="alberghi.php">pagina iniziale</a>
 </body>
 </html>
