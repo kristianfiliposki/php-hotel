@@ -74,7 +74,7 @@
 
 
 
-    <form action="prova2.php">
+    <form action="ricerca.php">
         <input type="text" placeholder="voto" name="voto">
         <button type="submit">send</button>
     </form>
