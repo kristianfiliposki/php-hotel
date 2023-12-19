@@ -52,6 +52,7 @@
 <body>
     <pre>
         <?php 
+    
             if(
                 ($elemento == $first['vote'] || $elemento < $first['vote'] ) 
             ){
