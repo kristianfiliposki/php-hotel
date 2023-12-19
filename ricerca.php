@@ -52,24 +52,13 @@
 <body>
     <pre>
         <?php 
-    
+        foreach ($hotels as $lista) {
             if(
-                ($elemento == $first['vote'] || $elemento < $first['vote'] ) 
+                ($elemento == $lista['vote'] || $elemento < $lista['vote'] ) 
             ){
-                echo $first['vote']; 
-
+                echo $lista['vote']; 
             }
-        ?>
-    </pre>
-    <pre>
-        <?php 
-            if(
-                ($elemento == $second['vote'] || $elemento < $second['vote'] ) 
-
-            ){
-                echo $second['vote'];
-
-            }
+        }
         ?>
     </pre>
     <a href="alberghi.php">pagina iniziale</a>
