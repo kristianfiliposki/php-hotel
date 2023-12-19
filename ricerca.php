@@ -52,11 +52,13 @@
 <body>
     <pre>
         <?php 
-        foreach ($hotels as $lista) {
+        foreach ($hotels as $arrey) {
             if(
-                ($elemento == $lista['vote'] || $elemento < $lista['vote'] ) 
+                ($elemento == $arrey['vote'] || $elemento < $arrey['vote'] ) 
             ){
-                echo $lista['vote']; 
+                echo "<br><br>";
+                 echo $arrey['vote']; 
+                 echo "<br><br>";
             }
         }
         ?>
